@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "iron-router": {},
+    "accounts-ui-bootstrap-3": {},
+    "bootstrap-slate": {},
+    "spin": {},
+    "fake": {}
+  }
+}

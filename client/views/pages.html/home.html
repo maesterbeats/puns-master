@@ -1,0 +1,10 @@
+<template name="home">
+	<div class="row">
+	    {{> punsList}}
+	</div>
+	<div class="row">
+		{{#if currentUser}}
+		    {{> punSubmitForm}}
+	    {{/if}}	
+	</div>		
+</template>

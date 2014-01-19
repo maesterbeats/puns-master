@@ -1,0 +1,28 @@
+<head>
+  <title>Puns o' Fun</title>
+</head>
+
+<body>
+	<div class="container">
+		{{renderRouter}}
+	</div>
+</body>
+
+
+
+<template name="layout">
+	<div class="main">
+		<div class="row">
+			{{> header}}
+		</div>
+		<div class="sideBar">
+	    	{{yield "sideBarMenu"}}
+		</div>
+		<div>
+	    	{{yield}}
+		</div>
+	</div>
+</template>
+
+
+

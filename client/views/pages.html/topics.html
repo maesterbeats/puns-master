@@ -1,0 +1,26 @@
+<template name="topics">
+	{{> topicSubmitForm}}
+	{{> topicsList}}
+</template>
+
+<template name="topicsList">
+	<div class="container">
+		{{#each topics}}
+			{{> topic}}
+		{{/each}}
+	</div>
+</template>
+
+<template name="topic">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">{{title}}</h3>
+		</div>
+		<div class="panel-body">
+    		{{description}}
+		</div>
+		<div class="panel-footer">
+			{{rules}}
+		</div>
+	</div>
+</template>
